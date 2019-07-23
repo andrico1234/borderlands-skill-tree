@@ -2103,10 +2103,10 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-beautiful-skill-tree@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/beautiful-skill-tree/-/beautiful-skill-tree-0.7.4.tgz#b9b8d45df11a5ff7c27a501fb7fc13d41121e558"
-  integrity sha512-dCk6nz6LRB8RoP2f5A8DwyMIe1HFVuO/BRMKVaLSPi+0l0XtTkO1ATyXDw8GY3fZoMOg/Q/linErEuHjvaHJ2Q==
+beautiful-skill-tree@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/beautiful-skill-tree/-/beautiful-skill-tree-0.7.5.tgz#12ac355b52d8192813b1c99a15c59b06b8eae6e3"
+  integrity sha512-Cj1AsxM6cMoLFFO0Am5HWUW9yTcaVmu5/PM31iXPEBmhrYG+kBkN4oczt4/b8KflJYBaLcguJOcPBdeHLm3NEg==
   dependencies:
     "@tippy.js/react" "^2.2.2"
     lodash "^4.17.15"
