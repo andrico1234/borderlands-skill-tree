@@ -3,15 +3,16 @@ import logo from "./logo.png";
 import "./App.css";
 import { SkillProvider, SkillTreeGroup, SkillTree } from "beautiful-skill-tree";
 import { motion, harmony, cataclysm } from './data/data';
+import theme from './data/theme';
 
 function App() {
   return (
     <div className="App">
-      <div style={{ width: "500px", height: '200px', margin: '0 auto' }}>
+      <div style={{ width: "500px", height: '150px', margin: '0 auto' }}>
         <img style={{ width: "500px" }} src={logo} alt="borderlands logo." />
       </div>
       <SkillProvider>
-        <SkillTreeGroup>
+        <SkillTreeGroup theme={theme}>
           {() => {
             return (
               <React.Fragment>
