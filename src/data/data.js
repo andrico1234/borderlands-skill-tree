@@ -35,7 +35,7 @@ export const motion = [
     icon: wardIcon,
     title: "Ward",
     tooltip: {
-      content: "Improves your shield capacity and shield recharge delay.",
+      description: "Improves your shield capacity and shield recharge delay.",
     },
     children: [
       {
@@ -43,7 +43,7 @@ export const motion = [
         icon: suspensionIcon,
         title: "Suspension",
         tooltip: {
-          content: "Increases the duration of Phaselock.",
+          description: "Increases the duration of Phaselock.",
         },
         children: [
           {
@@ -51,7 +51,7 @@ export const motion = [
             icon: fleetIcon,
             title: "Fleet",
             tooltip: {
-              content: "Your movement speed increases while your shields are depleted.",
+              description: "Your movement speed increases while your shields are depleted.",
             },
             children: [
               {
@@ -59,7 +59,7 @@ export const motion = [
                 icon: convergeIcon,
                 title: "Converge",
                 tooltip: {
-                  content: "Your Phaselock ability now also pulls nearby enemies to the original target. This deals a small amount of damage to affected enemies.",
+                  description: "Your Phaselock ability now also pulls nearby enemies to the original target. This deals a small amount of damage to affected enemies.",
                 },
                 children: [
                   {
@@ -67,7 +67,7 @@ export const motion = [
                     icon: quickenIcon,
                     title: "Quicken",
                     tooltip: {
-                      content: "Increases the cooldown rate of your phaselock ability.",
+                      description: "Increases the cooldown rate of your phaselock ability.",
                     },
                     children: []
                   }
@@ -78,7 +78,7 @@ export const motion = [
                 icon: thoughtLockIcon,
                 title: "Thoughtlock",
                 tooltip: {
-                  content: "Phaselock causes enemies to turn on their friends instead of being locked down. Additionally, Phaselock's duration is increased, but so is it's cooldown. ",
+                  description: "Phaselock causes enemies to turn on their friends instead of being locked down. Additionally, Phaselock's duration is increased, but so is it's cooldown. ",
                 },
                 children: []
               }
@@ -93,7 +93,7 @@ export const motion = [
     icon: accelerateIcon,
     title: "Accelerate",
     tooltip: {
-      content: "Increases damage and bullet speed with all weapon types.",
+      description: "Increases damage and bullet speed with all weapon types.",
     },
     children: [
       {
@@ -101,7 +101,7 @@ export const motion = [
         icon: kineticReflectIcon,
         title: "Kinetic Reflection",
         tooltip: {
-          content: "After killing an enemy, you gain the ability to deflect enemy bullets, sending them flying toward nearby enemies. You take reduced damage from reflective bullets. Kinetic Reflection only works with bullets. This effect lasts for a short time.",
+          description: "After killing an enemy, you gain the ability to deflect enemy bullets, sending them flying toward nearby enemies. You take reduced damage from reflective bullets. Kinetic Reflection only works with bullets. This effect lasts for a short time.",
         },
         children: [
           {
@@ -109,7 +109,7 @@ export const motion = [
             icon: inertiaIcon,
             title: "Intertia",
             tooltip: {
-              content: "Killing an enemy causes your shields to quickly regenerate and increases your reload speed for a few seconds.",
+              description: "Killing an enemy causes your shields to quickly regenerate and increases your reload speed for a few seconds.",
             },
             children: [
               {
@@ -117,7 +117,7 @@ export const motion = [
                 icon: subsequenceIcon,
                 title: "Subsequence",
                 tooltip: {
-                  content: "When an enemy under the effects of your Phaselock dies there is a chance for your Phaselock ability to seek out and affect another target. ",
+                  description: "When an enemy under the effects of your Phaselock dies there is a chance for your Phaselock ability to seek out and affect another target. ",
                 },
                 children: []
               }
@@ -135,7 +135,7 @@ export const harmony = [
     icon: mindsEyeIcon,
     title: "Mind's Eye",
     tooltip: {
-      content: "Increases critical hit damage and melee damage.",
+      description: "Increases critical hit damage and melee damage.",
     },
     children: [
       {
@@ -143,7 +143,7 @@ export const harmony = [
         icon: restorationIcon,
         title: "Restoration",
         tooltip: {
-          content: "Shooting other players heals them. Also increases your maximum health.",
+          description: "Shooting other players heals them. Also increases your maximum health.",
         },
         children: [
           {
@@ -151,7 +151,7 @@ export const harmony = [
             icon: elatedIcon,
             title: "Elated",
             tooltip: {
-              content: "While you have an enemy Phaselocked you and your friends regenerate health.",
+              description: "While you have an enemy Phaselocked you and your friends regenerate health.",
             },
             children: [
               {
@@ -159,7 +159,7 @@ export const harmony = [
                 icon: lifeTapIcon,
                 title: "Life Tap",
                 tooltip: {
-                  content: "Killing an enemy causes you to steal health from any enemy you damage. This effect lasts a short while.",
+                  description: "Killing an enemy causes you to steal health from any enemy you damage. This effect lasts a short while.",
                 },
                 children: [
                   {
@@ -167,7 +167,7 @@ export const harmony = [
                     icon: scornIcon,
                     title: "Scorn",
                     tooltip: {
-                    content: "Throw an Orb of Slag that constantly damages enemies near it. This ability has a cooldown. Perform a regular melee attack when Scorn is on cooldown.",
+                    description: "Throw an Orb of Slag that constantly damages enemies near it. This ability has a cooldown. Perform a regular melee attack when Scorn is on cooldown.",
                     },
                     children: []
                   }
@@ -180,7 +180,7 @@ export const harmony = [
             icon: sweetReleaseIcon,
             title: "Sweet Release",
             tooltip: {
-              content: "Increases damage and bullet speed with all gun types.",
+              description: "Increases damage and bullet speed with all gun types.",
             },
             children: [
               {
@@ -188,7 +188,7 @@ export const harmony = [
                 icon: wreckIcon,
                 title: "Wreck",
                 tooltip: {
-                  content: "While you have an enemy Phaselocked you gain increased fire rate and damage with all gun types.",
+                  description: "While you have an enemy Phaselocked you gain increased fire rate and damage with all gun types.",
                 },
                 children: [
                   {
@@ -196,7 +196,7 @@ export const harmony = [
                     icon: recompenseIcon,
                     title: "Recompense",
                     tooltip: {
-                      content: "When you take health damage there is chance your attacker takes damage equal to the amount of health you lost. ",
+                      description: "When you take health damage there is chance your attacker takes damage equal to the amount of health you lost. ",
                     },
                     children: []
                   }
@@ -207,7 +207,7 @@ export const harmony = [
                 icon: resIcon,
                 title: "Res",
                 tooltip: {
-                  content: "You can instantly revive your friend in Fight for your Life by using Phaselock on him/her.",
+                  description: "You can instantly revive your friend in Fight for your Life by using Phaselock on him/her.",
                 },
                 children: []
               }
@@ -225,7 +225,7 @@ export const cataclysm = [
     icon: flickerIcon,
     title: "Flicker",
     tooltip: {
-      content: "Increases your chance to cause status effects with Fire, Shock, Corrosive and Slag guns.",
+      description: "Increases your chance to cause status effects with Fire, Shock, Corrosive and Slag guns.",
     },
     children: [
       {
@@ -233,7 +233,7 @@ export const cataclysm = [
         icon: immolateIcon,
         title: "Immolate",
         tooltip: {
-          content: "Adds fire damage to all of your shots fired while in Fight for your Life. The additional fire damage is based on the damage of the weapon you're firing.",
+          description: "Adds fire damage to all of your shots fired while in Fight for your Life. The additional fire damage is based on the damage of the weapon you're firing.",
         },
         children: [
           {
@@ -241,7 +241,7 @@ export const cataclysm = [
             icon: chainReactionIcon,
             title: "Chain Reaction",
             tooltip: {
-              content: "While you have an enemy Phaselocked all of your shots that hit enemies have a chance to ricochet and hit another nearby enemy. Chain Reaction only works with bullets.",
+              description: "While you have an enemy Phaselocked all of your shots that hit enemies have a chance to ricochet and hit another nearby enemy. Chain Reaction only works with bullets.",
             },
             children: [
               {
@@ -249,7 +249,7 @@ export const cataclysm = [
                 icon: cloudKillIcon,
                 title: "Cloud Kill",
                 tooltip: {
-                  content: "Shooting an enemy creates a lingering acid cloud, dealing constant corrosive damage to enemies who touch it. Only one acid cloud can be active at a time. ",
+                  description: "Shooting an enemy creates a lingering acid cloud, dealing constant corrosive damage to enemies who touch it. Only one acid cloud can be active at a time. ",
                 },
                 children: [
                   {
@@ -257,7 +257,7 @@ export const cataclysm = [
                     icon: reaperIcon,
                     title: "Reaper",
                     tooltip: {
-                      content: "You deal increased damage to any enemy that has more than 50% of his health remaining.",
+                      description: "You deal increased damage to any enemy that has more than 50% of his health remaining.",
                     },
                     children: []
                   },
@@ -266,7 +266,7 @@ export const cataclysm = [
                     icon: blightPhoenixIcon,
                     title: "Blight Phoenix",
                     tooltip: {
-                      content: "Killing an enemy causes you to deal constant fire and corrosive damage to nearby enemies for a short time. The damage is based on your level and the level of Blight Phoenix.",
+                      description: "Killing an enemy causes you to deal constant fire and corrosive damage to nearby enemies for a short time. The damage is based on your level and the level of Blight Phoenix.",
                     },
                     children: []
                   }
@@ -281,7 +281,7 @@ export const cataclysm = [
         icon: forsightIcon,
         title: "Forsight",
         tooltip: {
-          content: "Increases magazine size and reload speed with all weapon types.",
+          description: "Increases magazine size and reload speed with all weapon types.",
         },
         children: [
           {
@@ -289,7 +289,7 @@ export const cataclysm = [
             icon: heliosIcon,
             title: "Helios",
             tooltip: {
-              content: "Phaselocking an enemy causes a fiery explosion, damaging any nearby enemies.",
+              description: "Phaselocking an enemy causes a fiery explosion, damaging any nearby enemies.",
             },
             children: [
               {
@@ -297,7 +297,7 @@ export const cataclysm = [
                 icon: backdraftIcon,
                 title: "Backdraft",
                 tooltip: {
-                  content: "Your melee attacks deal additional fire damage. Also, when your shields become depleted, you create a fiery explosion, damaging nearby enemies. Your shields must fully recharge between explosions.",
+                  description: "Your melee attacks deal additional fire damage. Also, when your shields become depleted, you create a fiery explosion, damaging nearby enemies. Your shields must fully recharge between explosions.",
                 },
                 children: []
               },
@@ -306,7 +306,7 @@ export const cataclysm = [
                 icon: ruinIcon,
                 title: "Ruin",
                 tooltip: {
-                  content: 'Phaselock now Slags, Electrocutes, and Corrodes all nearby enemies. "Ignorance and Inconsideration may be greater causes of ruin, but they are slow and lacking in spectacle"',
+                  description: 'Phaselock now Slags, Electrocutes, and Corrodes all nearby enemies. "Ignorance and Inconsideration may be greater causes of ruin, but they are slow and lacking in spectacle"',
                 },
                 children: []
               }
